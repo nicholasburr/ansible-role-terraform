@@ -1,0 +1,5 @@
+---
+terraform_project_path: "{{ inventory_dir }}/terraform/terraform"
+terraform_state: present
+terraform_workspace: "{{ lookup('env', 'USER') }}"
+terraform_variables_file: "{{ inventory_dir }}/operations/terraform/terraform.tfvars"

@@ -1,0 +1,8 @@
+---
+- name: apply terraform configuration - state == {{ terraform_state }}
+  terraform:
+    project_path: "{{ terraform_project_path }}"
+    state: "{{ terraform_state }}"
+    workspace: "{{ terraform_workspace }}"
+    variables_file: "{{ terraform_variables_file }}"
+    force_init: true

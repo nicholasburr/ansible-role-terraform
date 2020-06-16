@@ -1,0 +1,8 @@
+galaxy_info:
+  role_name: terraform
+  author: Nicholas Burr
+  description: role to run terraform cli via ansible
+
+  license: MIT
+
+  min_ansible_version: 2.9
